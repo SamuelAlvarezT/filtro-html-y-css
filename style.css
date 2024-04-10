@@ -1,0 +1,140 @@
+@media (min-width: 800px) {
+
+body{
+    background-color: rgb(232, 217, 214);
+    
+  
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image_container {
+    background-image: url(imgs/Vector.png);
+    background-image: url(imgs/background_image.png);
+}
+
+}
+ .button {
+    
+    color: aliceblue;
+    background-color: rgb(39, 25, 8);
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none
+}
+.left_container {
+    justify-content: baseline;
+    
+}
+.down_container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 45%;
+    max-width: 45%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius:50px ;
+}
+.feature1{
+    background-color:rgb(250, 245, 244);
+    border-radius: 50px;
+}
+.feature2{
+    background-color:rgb(250, 245, 244);
+    border-radius: 50px;
+
+}
+.feature3{
+    background-color:rgb(250, 245, 244);
+    border-radius: 50px;
+    
+}
+ 
+}
+
+
+
+
+@media(max-width: 800px) {
+    body{
+        background-color: rgb(232, 217, 214);
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .image_container {
+        background-image: url(imgs/Vector.png) ;
+        size: auto;
+
+        background-image: url(imgs/background_image.png);
+
+
+    }
+     .title {
+       
+    }
+     .button {
+        color: aliceblue;
+        background-color: rgb(39, 25, 8);
+        border-radius: 25px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border:none
+    }
+  
+    
+    .down_container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .features {
+        display: flex;
+        flex-direction: row;
+        flex: 0 0 45%;
+        max-width: 45%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-radius:50px ;
+    }
+    .feature1{
+        
+        flex-direction: row;
+        flex-direction: column;
+        background-color:rgb(250, 245, 244);
+        border-radius: 50px;
+    }
+    .feature2{
+        background-color:rgb(250, 245, 244);
+        border-radius: 50px;
+    
+    }
+    .feature3{
+        background-color:rgb(250, 245, 244);
+        border-radius: 50px;
+        
+    }
+     
+    
+
+    
+}
+
